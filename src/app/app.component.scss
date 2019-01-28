@@ -1,0 +1,26 @@
+.app-body {
+    margin-top: 15px;
+}
+
+.nav-styles {
+    background-color: #1A1B22;
+    a {
+        color: #ffffff;
+        &:hover {
+            color: #c9c9c9;
+        }
+        &.active {
+            color: #e64758;
+        }
+    }
+
+    .dropdown-links {
+        a {
+            color: #1a1b22;
+            &:hover {
+                color: #252830;
+            }
+        }
+    }
+}
+
